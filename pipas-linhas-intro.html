@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pipas e Linhas - Guia Introdutório</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #667eea;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #666;
+            font-style: italic;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .card h2 {
+            color: #764ba2;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .card h3 {
+            color: #667eea;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+
+        .card p {
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px 0;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .highlight h2 {
+            color: white;
+            border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+
+        .warning {
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .warning h3 {
+            color: #856404;
+            margin-bottom: 10px;
+        }
+
+        .warning p {
+            color: #856404;
+        }
+
+        .kite-icon {
+            font-size: 3em;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            margin-top: 30px;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🪁 Pipas e Linhas</h1>
+            <p class="subtitle">Guia Completo para Iniciantes na Arte de Empinar Pipas</p>
+        </header>
+
+        <div class="content-grid">
+            <div class="card">
+                <div class="kite-icon">🪁</div>
+                <h2>O que são Pipas?</h2>
+                <p>Pipas, também conhecidas como papagaios, pandorgas ou arraias, são objetos voadores feitos tradicionalmente de papel, plástico ou tecido, montados sobre uma estrutura leve de varetas.</p>
+                <p>Empinar pipas é uma atividade recreativa praticada há milhares de anos em diversas culturas ao redor do mundo, combinando diversão, habilidade e contato com a natureza.</p>
+            </div>
+
+            <div class="card">
+                <h2>Tipos de Pipas</h2>
+                <h3>Pipa Comum</h3>
+                <p>A mais tradicional, geralmente em formato de losango, ideal para iniciantes.</p>
+                
+                <h3>Pipa Raias</h3>
+                <p>Formato triangular ou de raio, muito popular no Brasil.</p>
+                
+                <h3>Pipa Delta</h3>
+                <p>Formato triangular mais aerodinâmico, voa com estabilidade.</p>
+                
+                <h3>Pipa Caixa</h3>
+                <p>Estrutura tridimensional, mais estável em ventos fortes.</p>
+            </div>
+
+            <div class="card">
+                <h2>Materiais Necessários</h2>
+                <h3>Para a Pipa:</h3>
+                <p>• Varetas de bambu ou fibra de vidro<br>
+                • Papel de seda, plástico ou tecido leve<br>
+                • Cola específica<br>
+                • Tesoura<br>
+                • Fita adesiva</p>
+                
+                <h3>Para Voar:</h3>
+                <p>• Linha adequada (100 a 300 metros)<br>
+                • Carretel ou rabiola<br>
+                • Rabiola (cauda) para equilíbrio</p>
+            </div>
+        </div>
+
+        <div class="highlight">
+            <h2>Tipos de Linhas</h2>
+            <p><strong>Linha de Algodão:</strong> Tradicional e segura, ideal para iniciantes. Não corta e é mais suave nas mãos.</p>
+            
+            <p><strong>Linha de Nylon:</strong> Mais resistente e durável, permite maior controle da pipa em ventos fortes.</p>
+            
+            <p><strong>Linha Multifilamento:</strong> Muito resistente, usada por praticantes mais experientes.</p>
+        </div>
+
+        <div class="content-grid">
+            <div class="card">
+                <h2>Como Empinar</h2>
+                <p><strong>1. Escolha o local:</strong> Áreas abertas, longe de fios elétricos, árvores e construções.</p>
+                
+                <p><strong>2. Verifique o vento:</strong> Vento moderado (15-25 km/h) é ideal para iniciantes.</p>
+                
+                <p><strong>3. Monte a pipa:</strong> Certifique-se de que está bem estruturada e equilibrada.</p>
+                
+                <p><strong>4. Solte aos poucos:</strong> Com o vento a favor, solte a linha gradualmente enquanto a pipa sobe.</p>
+                
+                <p><strong>5. Controle:</strong> Use movimentos suaves para manter a pipa no ar.</p>
+            </div>
+
+            <div class="card">
+                <h2>Dicas para Iniciantes</h2>
+                <p>✓ Comece com pipas simples e pequenas</p>
+                <p>✓ Pratique em dias de vento moderado</p>
+                <p>✓ Use luvas para proteger as mãos</p>
+                <p>✓ Tenha paciência - a prática leva à perfeição</p>
+                <p>✓ Empine com amigos para maior diversão</p>
+                <p>✓ Aprenda a fazer suas próprias pipas</p>
+            </div>
+        </div>
+
+        <div class="warning">
+            <h3>⚠️ Segurança em Primeiro Lugar</h3>
+            <p><strong>NUNCA empine pipas perto de:</strong></p>
+            <p>• Fios elétricos ou postes de energia</p>
+            <p>• Rodovias e ruas movimentadas</p>
+            <p>• Aeroportos ou áreas de voo</p>
+            <p>• Durante tempestades ou mau tempo</p>
+            <p><strong>É PROIBIDO usar cerol ou linha chilena</strong> - estas linhas cortantes são extremamente perigosas e ilegais, causando acidentes graves e até fatais, especialmente com motociclistas.</p>
+        </div>
+
+        <div class="highlight">
+            <h2>Benefícios de Empinar Pipas</h2>
+            <p>🌟 Exercício físico ao ar livre</p>
+            <p>🌟 Redução do estresse e ansiedade</p>
+            <p>🌟 Desenvolvimento da coordenação motora</p>
+            <p>🌟 Atividade familiar e social</p>
+            <p>🌟 Estímulo à criatividade</p>
+            <p>🌟 Conexão com tradições culturais</p>
+        </div>
+
+        <footer>
+            <p><strong>Empinar pipas é mais do que um hobby - é uma arte!</strong></p>
+            <p>Divirta-se com responsabilidade e respeite sempre as normas de segurança.</p>
+        </footer>
+    </div>
+</body>
+</html>
